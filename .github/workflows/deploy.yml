@@ -34,9 +34,6 @@ jobs:
       - name: Build
         working-directory: resume
         run: pnpm build
-      - name: Create .nojekyll
-        working-directory: resume
-        run: touch out/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
