@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
 	images: {
 		unoptimized: true,
 	},
+	basePath: "/gregless22",
 	// @ts-ignore
 	reactCompiler: true,
 };
